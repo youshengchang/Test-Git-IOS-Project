@@ -21,6 +21,7 @@
 		8FEC5CA3198F3C020099A072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC5C85198F3C020099A072 /* UIKit.framework */; };
 		8FEC5CAB198F3C020099A072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC5CA9198F3C020099A072 /* InfoPlist.strings */; };
 		8FEC5CAD198F3C020099A072 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC5CAC198F3C020099A072 /* Git_TestTests.m */; };
+		8FEC5CB8198F3F870099A072 /* ITITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC5CB7198F3F870099A072 /* ITITest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8FEC5CA8198F3C020099A072 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8FEC5CAA198F3C020099A072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FEC5CAC198F3C020099A072 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8FEC5CB6198F3F870099A072 /* ITITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITITest.h; sourceTree = "<group>"; };
+		8FEC5CB7198F3F870099A072 /* ITITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITITest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		8FEC5C75198F3C020099A072 = {
 			isa = PBXGroup;
 			children = (
+				8FEC5CB6198F3F870099A072 /* ITITest.h */,
+				8FEC5CB7198F3F870099A072 /* ITITest.m */,
 				8FEC5C87198F3C020099A072 /* Git Test */,
 				8FEC5CA6198F3C020099A072 /* Git TestTests */,
 				8FEC5C80198F3C020099A072 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				8FEC5C8E198F3C020099A072 /* main.m in Sources */,
 				8FEC5C98198F3C020099A072 /* ITIViewController.m in Sources */,
+				8FEC5CB8198F3F870099A072 /* ITITest.m in Sources */,
 				8FEC5C92198F3C020099A072 /* ITIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
