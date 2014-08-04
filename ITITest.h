@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ITITest : XYZPerson
+@interface ITITest : NSObject
 
 @end
